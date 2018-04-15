@@ -1,6 +1,6 @@
 {
-    "name": "drupal-composer/drupal-project",
-    "description": "Project template for Drupal 8 projects with composer",
+    "name": "iiit-lucknow-website",
+    "description": "IIIT Lucknow Website on Drupal 8 based on drupal-composer/drupal-project",
     "type": "project",
     "license": "GPL-2.0-or-later",
     "authors": [
@@ -70,6 +70,11 @@
             "web/profiles/contrib/{$name}": ["type:drupal-profile"],
             "web/themes/contrib/{$name}": ["type:drupal-theme"],
             "drush/contrib/{$name}": ["type:drupal-drush"]
+        },
+        "patches": {
+            "drupal/core": {
+                "Drupal Addess fix default syncing": "https://www.drupal.org/files/issues/2018-04-04/theme-settings-form-validation-2954884-15.patch"     
+            }
         }
     }
 }
