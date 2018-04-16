@@ -1,0 +1,44 @@
+{#
+/**
+ * @file
+ * Theme override to display a region.
+ *
+ * Available variables:
+ * - content: The content for this region, typically blocks.
+ * - attributes: HTML attributes for the region div.
+ * - region: The name of the region variable as defined in the theme's
+ *   .info.yml file.
+ *
+ * @ingroup templates
+ *
+ * @see template_preprocess_region()
+ */
+#}
+
+<div class="row" id="footer">
+  <div class="col-xs-6 col-sm-4">
+      <h1>Indian Institute of Information Technology,<br> Lucknow</h1>
+      <hr class="my-4">
+      <div class="text-right">
+        <a target="blank" class="btn btn-danger" href="https://www.facebook.com/IIITLucknow/"><i class="fa fa-facebook"></i></a>
+        <a target="blank" class="btn btn-danger" href="https://linkedin.com/IIITLucknow"><i class="fa fa-linkedin"></i></a>
+      </div>
+  </div>
+
+  <div class="col-xs-6 col-sm-4">
+      <h2>Get in Touch</h2>
+      <p>IIIT Allahabad, Jhalwa, Allahabad - 211015</p>
+      <p>P: +0532 292 2032 </p>
+      <p>E: <a href="mailto:contact@iiitl.ac.in">contact@iiitl.ac.in</a></p>
+  </div>
+
+  <div class="col-xs-12 col-sm-4">
+    {% if content %}
+    <div class="row">
+        {{ content }}
+    </div>
+    {% endif %}
+    <div class="row text-right"><p class="text-muted">&copy; 2018 {{ drupal_token('site:name') }}. All rights reserved. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p></div>
+  </div>
+
+</div> <!--footer row end-->
