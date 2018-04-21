@@ -24,7 +24,7 @@
     position: absolute;
     cursor: pointer;
     display: block;
-    background: url(../jssor/img/a12.png) no-repeat;
+    background: url(../includes/jssor/img/a12.png) no-repeat;
     overflow: hidden;
 }
 
