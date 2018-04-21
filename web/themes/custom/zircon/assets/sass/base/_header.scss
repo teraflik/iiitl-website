@@ -34,15 +34,6 @@
                     font-family: $font-body;
                     font-size: $fs-14;
                 }
-                > span {
-                    display: block;
-                    line-height: 21px;
-                    padding: 12px 20px;
-                    color: $white;
-                    text-transform: uppercase;
-                    font-family: $font-body;
-                    font-size: $fs-14;
-                }
                 .is-active {
                     background-color: #a01300;
                     background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#a01300), to(#282a2c));
