@@ -32,14 +32,8 @@
         {% endif %}
       </div>
    {% endif %}
-    <button type="button" class="navbar-toggle" id="main-menu-inner">
-      <span class="sr-only">Toggle navigation</span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-    </button>
 
-    {{ page.header }}
+   {{ page.header }}
     
   </div>
 </header>
@@ -54,13 +48,11 @@
   {% endif %}
 
   {% if page.main_menu %}
-    <nav id="main-menu" class="navbar navbar-default" role="navigation">	
-  		  <div class="collapse navbar-collapse" id="main-menu-inner">
-          <div class="container">
-            {{ page.main_menu }}
-          </div>
-        </div>
-    </nav>
+  <nav id="main-menu">
+  <div class="container">
+    {{ page.main_menu }}
+  </div>
+</nav>
   {% endif %}
 
   {% if page.slideshow %}
