@@ -23,7 +23,6 @@ global-styling:
     assets/js/slideshow.js: {}
     assets/js/carousel.js: {}
     assets/js/zircon.js: {}
-    assets/js/fix_script.js: {}
     assets/js/jquery.cookie.js: {}
   dependencies:
     - core/jquery
