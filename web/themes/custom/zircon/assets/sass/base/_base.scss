@@ -23,13 +23,13 @@ header, nav, section, article, figure, aside, footer {
 }
 
 a {
-    color: $dark_grey;
+    color: #d9534f;
 }
 
 a:hover, a:focus {
     outline: none;
     text-decoration: none;
-    color: $red;
+    color: #b92c28;
 }
 
 h1, .h1 {

@@ -298,14 +298,14 @@ header, nav, section, article, figure, aside, footer {
 
 /* line 25, ../sass/base/_base.scss */
 a {
-  color: #555;
+  color: #d9534f;
 }
 
 /* line 29, ../sass/base/_base.scss */
 a:hover, a:focus {
   outline: none;
   text-decoration: none;
-  color: #c01700;
+  color: #b92c28;
 }
 
 /* line 35, ../sass/base/_base.scss */
